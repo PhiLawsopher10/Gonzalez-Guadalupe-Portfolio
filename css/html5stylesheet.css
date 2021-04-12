@@ -25,3 +25,25 @@ body {
   .skip-to-content-link:focus {
     transform: translateY(0%);
   }
+
+  .grid-container {
+    display: grid;
+    grid-column: auto auto auto auto;
+    align-content: center;
+  }
+
+  .item1 { 
+      grid-area: Index; 
+  }
+
+  .item2 { 
+      grid-area: About Me; 
+  }
+  
+  .item3 { 
+      grid-area: Experiences; 
+  }
+  
+  .item4 { 
+      grid-area: IDK; 
+  }
