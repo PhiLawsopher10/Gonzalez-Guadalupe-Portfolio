@@ -37,6 +37,20 @@ body {
     padding: 2.5;
   }
 
+  .nav_item:active {
+      font-weight: 900;
+      color: black;
+  }
+
+    .nav_item:hover {
+      background-color: white;
+  } 
+
+  .nav_item:visited {
+      font: italic;
+      font-size: medium;
+  } 
+
   .grid-container {
     display: grid;
     grid-row: span 2;
